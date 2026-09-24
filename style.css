@@ -7,7 +7,7 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(206, 69, 176);
+    color: rgb(103, 35, 87);
     background-color: #ffdef5;
     line-height: 1.6;
 }
@@ -21,7 +21,7 @@ header {
 }
 footer {
     background-color: #ffb6dd;
-    color: rgb(202, 39, 159);
+    color: rgb(225, 63, 182);
     padding: 20px;
 }
 /* ===== CONTEÚDO PRINCIPAL ===== */
@@ -40,6 +40,10 @@ nav ul {
     gap: 20px;
 }
 
+nav a:hover {
+color: rgb(247, 11, 156);
+}
+
 nav a {
     color: hotpink;
     text-decoration: none;
@@ -49,10 +53,16 @@ nav a {
     letter-spacing: 4px;
 }
 
-
-header h3 {
-    color: hotpink;
+h1, h3 {
+ background-color: #fab6da;
+ color: rgb(252, 253, 253);
+ 
 }
+h2, h3 {
+    color:  #ff52ae;
+    justify-content: center;
+}
+
 section {
     background-color: white;
     padding: 20px;
@@ -68,8 +78,62 @@ section {
 }
 
 #destaque {
-    background-color: #f8d7e3;
+    background-color: #901b46;
     padding: 30px;
     text-align: center;
     border-radius: 15px;
+}
+
+button {
+    background-color: rgb(240, 158, 222);
+    color: black;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.entre-em-contato {
+    background-color: #fc94baab;
+    max-width: 1000px;
+    padding: 1px 250px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.card {
+    background-color: rgb(255, 241, 250);
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.foto {
+    background-color: rgb(255, 222, 239);
+    background-size: cover;
+    background-position: center;
+    height: 160px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.pacote {
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.pacote-essencial {
+    background-color: rgb(255, 220, 238);
+    border-left: 4px solid #fc2078;
+
+}
+
+.pacote-premium {
+    background-color: rgb(255, 242, 251);
+    color: #6f475b;
+    border-left: 4px solid #6f475a;
 }
