@@ -6,17 +6,22 @@
 /* ===== BASE ===== */
 
 body {
-    font-family: Arial, sans-serif;
-    color: #ff83d4;
-    background-color: #f5f7f8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(206, 69, 176);
+    background-color: #ffdef5;
     line-height: 1.6;
 }
 /* ===== CABEÇALHO E RODAPÉ ===== */
 
-header,
-footer {
-    background-color: #f5acde;
+header {
+    background-color: #ffb6dd;
     color: rgb(255, 255, 255);
+    padding: 32px 16px;
+    text-align: center;
+}
+footer {
+    background-color: #ffb6dd;
+    color: rgb(202, 39, 159);
     padding: 20px;
 }
 /* ===== CONTEÚDO PRINCIPAL ===== */
@@ -36,17 +41,35 @@ nav ul {
 }
 
 nav a {
-    color: rgb(227, 60, 177);
+    color: hotpink;
     text-decoration: none;
+    font-weight: 550;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
-header h1,
-header h2,
+
+
 header h3 {
-    color: rgb(255, 27, 205);
+    color: hotpink;
 }
 section {
     background-color: white;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
+}
+
+.cartao {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+#destaque {
+    background-color: #f8d7e3;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
 }
