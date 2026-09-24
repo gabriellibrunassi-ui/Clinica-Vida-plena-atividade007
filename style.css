@@ -70,6 +70,7 @@ section {
     border-radius: 8px;
 }
 
+/*Seletor classe e ID*/
 .cartao {
     background-color: rgb(255, 255, 255);
     padding: 20px;
@@ -136,4 +137,24 @@ button {
     background-color: rgb(255, 242, 251);
     color: #6f475b;
     border-left: 4px solid #6f475a;
+}
+
+#foto-pediatria {
+    background-image: url(pediatria.png);
+    padding: 50px;
+    height: 300px;
+}
+
+#foto-psicologia {
+     background-image: url(psicologia2.png);
+    padding: 50px;
+    height: 300px;
+
+}
+
+#foto-dermatologia {
+     background-image: url(dermatologia.jpg);
+    padding: 50px;
+    height: 300px;
+
 }
